@@ -1,13 +1,12 @@
 
 import './App.css'
+import Dashboard from './dashboard.jsx'
 
 function App() {
   
 
   return (
-    <div>
-      <h1>Welcome to Sikshalaya</h1>
-    </div>
+    <Dashboard />
   )
 }
 
