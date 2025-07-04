@@ -1,3 +1,13 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -9,23 +19,28 @@ header {
 .title {
     font-size: 24px;
     font-weight: bold;
+    background: transparent;
+    color: white;
 }
 
 .menu {
     display: flex;
     gap: 20px;
+    background: transparent;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     font-size: 16px;
+    background: transparent;
+    color: white;
 }
 
-.menu a:hover{
+.menu a:hover {
     text-decoration: underline;
 }
 
-.logout button{
+.logout button {
     background-color: #dc3545;
     color: white;
     border: none;
@@ -35,14 +50,19 @@ header {
     font-size: 16px;
 }
 
-.logout button:hover{
+.logout button:hover {
     background-color: #0d9321;
 }
 
-footer{
+footer {
     background-color: #1a3c6e;
     color: white;
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
+}
+
+.footerText {
+    background: transparent;
+    color: white;
 }

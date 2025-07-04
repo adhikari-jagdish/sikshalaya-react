@@ -1,11 +1,8 @@
-
-import Header from "./header.jsx";
 function Dashboard() {
     return (
-        <div>
-            <Header />
+        <main>
             <h1>Hello Dashboard</h1>
-        </div>
+        </main>
 
     );
 }
