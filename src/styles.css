@@ -66,3 +66,35 @@ footer {
     background: transparent;
     color: white;
 }
+
+
+/* Dashboard Banner CSS */
+
+.dashboard-banner{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to right, #1a3c6e, #9333ea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-banner-content{
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+.dashboard-banner-content h1{
+    font-size: 2em;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.dashboard-banner-content p{
+    font-size: 1.2em;
+    background: transparent;
+    color: white;
+}
