@@ -70,7 +70,7 @@ footer {
 
 /* Dashboard Banner CSS */
 
-.dashboard-banner{
+.dashboard-banner {
     width: 100%;
     height: 40vh;
     background: linear-gradient(to right, #1a3c6e, #9333ea);
@@ -79,13 +79,13 @@ footer {
     justify-content: center;
 }
 
-.dashboard-banner-content{
+.dashboard-banner-content {
     text-align: center;
     background: transparent;
     color: white;
 }
 
-.dashboard-banner-content h1{
+.dashboard-banner-content h1 {
     font-size: 2em;
     font-weight: bold;
     background: transparent;
@@ -93,8 +93,60 @@ footer {
     margin-bottom: 10px;
 }
 
-.dashboard-banner-content p{
+.dashboard-banner-content p {
     font-size: 1.2em;
     background: transparent;
     color: white;
+}
+
+.common-title h1 {
+    font-size: 2em;
+    font-weight: bold;
+    background: transparent;
+    color: #1a3c6e;
+    margin-bottom: 10px;
+}
+
+.common-title p {
+    font-size: 1.2em;
+    background: transparent;
+    color: #5f6670;
+    text-align: center;
+}
+
+/* Common Our Values CSS */
+
+.our-values-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+.our-values-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    color: #1a3c6e;
+    font-size: 1.5em;
+}
+
+.our-values-container .image {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: transparent;
+}
+
+.our-values-container .text {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    color: #1a3c6e;
 }
