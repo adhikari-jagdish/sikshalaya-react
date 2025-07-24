@@ -194,3 +194,33 @@ footer {
     margin: 0 auto;
     background: transparent;
 }
+
+.our-courses-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+/* Demo Button CSS */
+.demoButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.demoButton span{
+    padding: 20px;
+}
+
+.demoButton span button{
+    padding: 10px;
+}
+
+.text{
+    font-size: 40px;
+}
