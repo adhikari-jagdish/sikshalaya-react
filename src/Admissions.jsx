@@ -1,10 +1,20 @@
 import './styles.css'
 import CommonTitleComponent from './components/common_title_component';
 import { useState } from 'react';
+import CommonModel from './components/common_model';
 
 function Admissions() {
     //let textValue = 1;
     const [textValue, setTextValue] = useState(1);
+    const [isModalOpen, setModalValue] = useState(false);
+
+    function onOpen() {
+        setModalValue(true);
+    }
+
+    function onClose() {
+        setModalValue(false);
+    }
 
 
     function add() {
@@ -30,6 +40,15 @@ function Admissions() {
                 <span className='text'>{textValue}</span>
                 <span><button onClick={add}>+</button></span>
             </p>
+
+            <CommonModel
+                isOpen={isModalOpen}
+                title={"Demo Dialog Model"}
+                description={"Hello! this is a demo dialog"}
+                onClose={onClose}
+            />
+
+            <button onClick={onOpen}>Show Dialog</button>
 
         </main>
     );

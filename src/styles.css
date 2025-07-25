@@ -224,3 +224,68 @@ footer {
 .text{
     font-size: 40px;
 }
+
+
+/* Popup Model CSS */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal Box */
+.modal-box {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Title */
+.modal-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* Close Button (X) */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Content */
+.modal-content {
+  font-size: 16px;
+}
+
+/* Trigger Button */
+.modal-trigger-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-trigger-button:hover {
+  background-color: #0056b3;
+}
